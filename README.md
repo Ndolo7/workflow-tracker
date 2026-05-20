@@ -1,4 +1,4 @@
-# Mini Application Workflow Tracker (Django + Django Ninja + React)
+# Application Workflow Tracker (Django + Django Ninja + React)
 
 ## Backend setup (Django Ninja)
 
@@ -69,3 +69,8 @@ python manage.py migrate
 - Add Docker setup and CI checks.
 - Improve UX feedback/loading states and add toasts.
 # workflow-tracker
+
+## Author
+
+**Imani Ndolo**
+Email: imanindolo77@gmail.com
