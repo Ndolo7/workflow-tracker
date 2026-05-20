@@ -1,21 +1,5 @@
 # Mini Application Workflow Tracker (Django + Django Ninja + React)
 
-This project recreates the workflow tracker app in `/worktracker` with:
-- Backend: Django + Django Ninja API
-- Frontend: React + Vite
-
-## Workflow
-
-Draft -> Submitted -> Under Review -> Need More Information / Approved / Rejected
-
-Rules implemented:
-- Only `Draft` and `Need More Information` applications can be edited.
-- Only `Draft` and `Need More Information` applications can be submitted.
-- Only `Submitted` applications can move to `Under Review`.
-- Only `Under Review` applications can receive reviewer decisions.
-- `Approved` and `Rejected` cannot be edited.
-- Reviewer comment is required for `Need More Information` and `Rejected`.
-
 ## Backend setup (Django Ninja)
 
 ```bash
